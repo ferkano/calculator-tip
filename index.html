@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/table.css" media="(min-width: 680px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 990px)">
+    <title>Tip-calculator</title>
+</head>
+<body>
+    <main class="container">
+        <section class="main-section-logo">
+            <picture class="inp-logo">
+                <img class="pincture-inp__logo" src="./img/logo.svg" alt="logo spliter">
+            </picture>
+         </section>
+            <section class="main-section-date">
+                <section class="main-section-one">
+                    <section class="container-section-bill">
+                        <div class="container-bill">
+                            <label for="">Bill</label>
+                            <div class="image-dolar">
+                                <picture class="inp-logo-dollar">
+                                    <img src="./img/icon-dollar.svg" alt="logo spliter" class="inp-logo-dollar__dollar">
+                                </picture>
+                                <input type="inp-text" class="input-dollar" id ="inp-bill" placeholder="142.55$">
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="tip">
+                        <div class="tip-label">
+                            <label for="">Select tip %</label>
+                        </div>
+                        <div class="tip-porcent">
+                            <div class="tip">5%</div>   
+                            <div class="tip">10%</div>
+                            <div class="tip-active tip">15%</div>
+                            <div class="tip">25%</div>
+                            <div class="tip">50%</div> 
+                            <input class="tip-custom" id="inp-tip" type="inp-text" placeholder="Custom">
+                        </div>
+                    </section>
+            
+
+                    <section class="main-section-number">
+                        <div class="main-section-numer__numberpeople">
+                            <label for="">Number of People</label>
+                            <div class="error-msg">Can't be zero </div>
+                        </div>
+                        
+                        <div class="main-section-number-picture">
+                            <picture>
+                                <img src="./img/icon-person.svg" alt="" class="main-section-number-picture__img">
+                            </picture>
+                            <input type="inp-text" id="inp-people" placeholder="5">
+                        </div>
+                    </section>
+                </section> 
+                <section class="main-section-two">
+                    <section class="main-section-total">
+                        <div class="main-section-total-div">
+                            <div class="main-section-total-tip">
+                                <label for="" class="main-section-total-tip-tip">Tip Amount</label>
+                                <label for="" class="value">$4.27</label> 
+                                <label for="" class="main-section-total-tip-person">/ person</label> 
+
+                            </div>
+                            <div class="main-section-total-total">
+                                <label for="" class="main-section-total-total-total">Total</label>
+                                <label for="" class="value">$32.79</label>
+                                <label for="" class="main-section-total-total-person">/ person</label>
+                            </div>
+                            <div class="btn-reset reset">RESET</div>
+                        </div>
+                    </section>
+                </section>
+        </section>
+    </main>
+    <script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+
+.main-section-date{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.container-section-bill{
+    width: 100%;
+    border-top-right-radius: 0px;
+}
+.main-section-one{
+    width: 50%;
+}
+.main-section-two{
+    width: 50%;
+}
+.main-section-total{
+    height: 100%;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 1.5rem;
+    padding: 2rem
+}
+.main-section-total-div{
+    height: 100%;
+}
+.main-section-number{
+    border-bottom-left-radius: 1.5rem;
+}
+.main-section-total{
+    padding: 2rem;
+}
+.main-section-total-div{
+    padding-top: 2rem;
+}
+.main-section-total-tip{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.main-section-total-tip-person{
+    top: 3.5rem;
+}
+.main-section-total-total{
+    margin-bottom: 10rem;
+}

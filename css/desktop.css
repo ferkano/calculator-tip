@@ -1,0 +1,15 @@
+.tip-porcent div{
+    width: 30%;
+}
+.tip-porcent input{
+    width: 30%;
+}
+.main-section-total-tip-person{
+    top: 2rem;
+}
+.main-section-total-tip{
+    margin-bottom: 0.5rem;    
+}
+.main-section-total-total{
+    margin-bottom: 5rem;
+}
